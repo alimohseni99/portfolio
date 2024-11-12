@@ -35,7 +35,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/alimohseni99/portfolio.git
 ```
 
 2. Install dependencies:
