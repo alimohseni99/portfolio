@@ -8,6 +8,8 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 17, 17, 17;
   --background-end-rgb: 17, 17, 17;
+  --borderColor-muted: #3d444db3;
+  --color-border-muted: #3d444db3;
 }
 
 body {
