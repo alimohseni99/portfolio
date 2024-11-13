@@ -1,5 +1,5 @@
-import { AboutMe } from "@/about-me/about-me";
+import {Header} from "@/header/header";
 
 export default function Home() {
-  return <AboutMe />;
+  return <Header />;
 }
