@@ -8,10 +8,9 @@ export function Header() {
           src="/profile-pic.png"
           height={150}
           width={200}
-          className=" rounded-full "
+          className=" rounded-full object-cover h-auto"
           style={{ maxWidth: "none", height: "200px" }}
           alt="Ali Mohseni"
-          objectFit="cover"
         />
       </div>
       <h1 className="text-4xl font-bold mb-2">Ali Mohseni</h1>
