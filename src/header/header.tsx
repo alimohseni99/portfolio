@@ -3,12 +3,13 @@ import Image from "next/image";
 export function Header() {
   return (
     <header>
-      <div className="mb-4 relative overflow-hidden">
+      <div className="mb-4 ">
         <Image
           src="/profile-pic.png"
           height={150}
-          width={150}
-          className="rounded-full"
+          width={200}
+          className=" rounded-full "
+          style={{ maxWidth: "none", height: "200px" }}
           alt="Ali Mohseni"
           objectFit="cover"
         />

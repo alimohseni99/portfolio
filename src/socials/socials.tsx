@@ -1,4 +1,5 @@
 "use client";
+import copy from "copy-to-clipboard";
 import Link from "next/link";
 import {
   FaEnvelope,
@@ -6,7 +7,6 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-import copy from "copy-to-clipboard";
 
 export function Socials() {
   return (
@@ -34,7 +34,7 @@ export function Socials() {
             copy("ali.mohseni05@yahoo.se");
             alert("Email address copied to clipboard!");
           }}
-          className="text-gray-400 hover:text-white cursor-pointer"
+          className="text-gray-400 hover:text-white cursor-pointer "
           id="email-icon"
         >
           <FaEnvelope size={24} />
