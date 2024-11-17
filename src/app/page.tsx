@@ -37,8 +37,10 @@ export default function Home() {
               <div className="mt-6 animate-fadeIn delay-400">
                 <Socials />
               </div>
+              <div className="mt-96 ml-10">
+                <Nav />
+              </div>
             </div>
-            <Nav />
           </div>
 
           {/* Right Section */}

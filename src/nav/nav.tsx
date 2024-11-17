@@ -10,7 +10,7 @@ export function Nav() {
   };
 
   return (
-    <nav className="absolute top-1/2 transform -translate-y-1/2">
+    <nav className=" top-1/2 transform -translate-y-1/2">
       {navItems.map((item, index) => (
         <div
           key={index}
