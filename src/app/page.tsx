@@ -1,5 +1,6 @@
 import { AboutMe } from "@/about-me/about-me";
 import { Header } from "@/header/header";
+import { Nav } from "@/nav/nav";
 import Skills from "@/skils/skills";
 import { Socials } from "@/socials/socials";
 
@@ -37,6 +38,7 @@ export default function Home() {
                 <Socials />
               </div>
             </div>
+            <Nav />
           </div>
 
           {/* Right Section */}
