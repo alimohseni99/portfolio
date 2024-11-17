@@ -1,7 +1,7 @@
 "use client";
 import copy from "copy-to-clipboard";
 import Link from "next/link";
-import { AiOutlineFilePdf } from "react-icons/ai";
+import { BsFileEarmarkPdfFill } from "react-icons/bs";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function Socials() {
@@ -15,7 +15,7 @@ export function Socials() {
           className="text-gray-400 cursor-pointer y-white hover:text-[#ffffff] px-2 py-1 rounded transition duration-200"
           title="My Resume"
         >
-          <AiOutlineFilePdf size={24} />
+          <BsFileEarmarkPdfFill size={24} />
         </Link>
         <Link
           href="https://github.com/alimohseni99"
