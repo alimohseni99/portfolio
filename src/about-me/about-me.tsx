@@ -9,22 +9,18 @@ export function AboutMe() {
             "var(--borderColor-muted, var(--color-border-muted))",
         }}
       >
-        Hello! I’m Ali, a passionate Fullstack Developer currently honing my
-        skills at SALT, where I’m diving deep into JavaScript, TypeScript,
-        Node.js, and modern web technologies.
+        Hi, I’m Ali. I build web applications using JavaScript, TypeScript, and
+        Node.js.
         <br /> <br />
-        With a background in Computer Engineering, I thrive in problem-solving
-        and building scalable, maintainable web applications. My focus is on
-        Fullstack JavaScript development, and I enjoy working with both frontend
-        and backend technologies.
+        With a background in Computer Engineering, I enjoy designing clear,
+        effective solutions that work seamlessly across the frontend and
+        backend. I value simplicity, performance, and maintainability in
+        everything I create.
         <br /> <br />
-        I am always eager to learn new things and continuously improve. Feel
-        free to connect with me or explore my projects!
+        I’m currently finishing my training at SALT, where I’ve been working on
+        real-world projects and refining my skills. I’ll soon be available for
+        new opportunities as a consultant. Let’s connect and collaborate!
         <br /> <br />
-        Available for new opportunities after my Fullstack Bootcamp at SALT
-        ends, where I will be working as a consultant.
-        <br />
-        <br />
       </p>
     </section>
   );
