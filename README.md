@@ -11,7 +11,6 @@ I am a passionate developer with a keen interest in web development. This websit
 This project is built using the following technologies:
 
 - **Next.js**: A React framework for production.
-- **React**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins.
