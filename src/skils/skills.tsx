@@ -7,29 +7,32 @@ export default function skills() {
   const skillsCategory = [
     {
       name: "Languages",
-      color: "blue",
+      bgColor: "bg-blue-400",
+      textColor: "text-blue-300",
       items: skills.Languages,
     },
     {
       name: "Backend",
-      color: "orange",
+      bgColor: "bg-orange-400",
+      textColor: "text-orange-300",
       items: skills.Backend,
     },
     {
       name: "FrameWork",
-      color: "green",
+      bgColor: "bg-green-400",
+      textColor: "text-green-300",
       items: skills.FrameWork,
     },
   ];
   return (
     <div>
       <h2 className="text-3xl font-bold mb-6 text-gray-100">Skills</h2>
-      {skillsCategory.map(({ name, color, items }) => (
+      {skillsCategory.map(({ name, bgColor, items, textColor }) => (
         <div key={name} className="flex flex-wrap mb-1">
           {items.map((item, index) => (
             <div
               key={index}
-              className={`bg-${color}-400 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-${color}-200 mr-2 mb-2 rounded`}
+              className={`${bgColor} bg-opacity-30 px-3 py-1.5 text-xs font-medium ${textColor} mr-2 mb-2 rounded`}
             >
               {item}
             </div>
