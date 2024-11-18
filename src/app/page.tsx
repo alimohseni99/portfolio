@@ -1,6 +1,6 @@
 import { AboutMe } from "@/about-me/about-me";
+import { Experience } from "@/experience/experience";
 import { Header } from "@/header/header";
-import { Nav } from "@/nav/nav";
 import Skills from "@/skils/skills";
 import { Socials } from "@/socials/socials";
 
@@ -23,6 +23,9 @@ export default function Home() {
             <div className="animate-slideIn delay-800">
               <Skills />
             </div>
+            <div className="mt-6 animate-fadeIn delay-800">
+              <Experience />
+            </div>
           </main>
         </div>
 
@@ -36,9 +39,6 @@ export default function Home() {
               </div>
               <div className="mt-6 animate-fadeIn delay-400">
                 <Socials />
-              </div>
-              <div className="mt-96 ml-10">
-                <Nav />
               </div>
             </div>
           </div>
@@ -58,6 +58,9 @@ export default function Home() {
               </div>
               <div className="animate-slideIn delay-800">
                 <Skills />
+              </div>
+              <div className="mt-6 animate-fadeIn delay-800">
+                <Experience />
               </div>
             </main>
           </div>
