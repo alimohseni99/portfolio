@@ -1,7 +1,7 @@
 import { AboutMe } from "@/about-me/about-me";
 import { Experience } from "@/experience/experience";
 import { Header } from "@/header/header";
-import Skills from "@/skils/skills";
+import { Skills } from "@/skils/skills";
 import { Socials } from "@/socials/socials";
 
 export default function Home() {

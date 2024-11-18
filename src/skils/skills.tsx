@@ -1,4 +1,4 @@
-export default function skills() {
+export function Skills() {
   const skills = {
     Languages: ["Java", "Kotlin", "Javascript", "Typescript"],
     Backend: ["NodeJs", "ExpressJS", "PostgreSQL", "SQL"],
