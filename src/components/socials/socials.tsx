@@ -22,6 +22,7 @@ export function Socials() {
           <FaFileDownload size={18} className="mr-2" />
           Resume
         </Link>
+
         <Link
           href="https://github.com/alimohseni99"
           target="_blank"
@@ -31,6 +32,7 @@ export function Socials() {
         >
           <FaGithub size={24} />
         </Link>
+
         <span
           onClick={() => {
             copy("ali.mohseni05@yahoo.se");
@@ -41,6 +43,7 @@ export function Socials() {
         >
           <FaEnvelope size={24} />
         </span>
+
         <Link
           href="https://www.linkedin.com/in/ali-mohseni-se/"
           target="_blank"

@@ -1,8 +1,4 @@
-import { AboutMe } from "@/about-me/about-me";
-import { Experience } from "@/experience/experience";
-import { Header } from "@/header/header";
-import { Skills } from "@/skils/skills";
-import { Socials } from "@/socials/socials";
+import { AboutMe, Experience, Header, Skills, Socials } from "@/components";
 
 export default function Home() {
   return (
